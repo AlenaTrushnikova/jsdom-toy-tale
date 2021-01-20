@@ -15,7 +15,7 @@ This will create a server storing all of our lost toy data with restful routes
 at `http://localhost:3000/toys`. You can also check out
 `http://localhost:3000/toys/:id`
 
-## Fetch Andy's Toys
+## Fetch Andy's Toys --DONE
 
 On the `index.html` page, there is a `div` with the `id` "toy-collection."
 
@@ -23,7 +23,7 @@ When the page loads, make a 'GET' request to fetch all the toy objects. With the
 response data, make a `<div class="card">` for each toy and add it to the
 toy-collection `div`.
 
-## Add Toy Info to the Card
+## Add Toy Info to the Card -- DONE
 
 Each card should have the following child elements:
 
@@ -43,7 +43,7 @@ After all of that, the toy card should resemble:
   </div>
 ```
 
-## Add a New Toy
+## Add a New Toy -- DONE
 
 * When a user submits the toy form, a `POST` request is sent to `http://localhost:3000/toys` and the new toy is added to Andy's Toy Collection.
 * The toy should conditionally render to the page.
